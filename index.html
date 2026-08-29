@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of Tora Sandhi Kamulian, a Gameplay Systems Developer focused on Unreal Engine 5, C++, multiplayer, and replication.">
+  <meta name="description" content="Portfolio of Tora Sandhi Kamulian, a Gameplay Systems Developer focused on Unreal Engine 5, C++, gameplay architecture, and reliable systems development.">
   <meta name="theme-color" content="#f0c9c1">
   <title>Tora Sandhi Kamulian | Gameplay Systems Developer</title>
   <link rel="stylesheet" href="styles.css">
@@ -39,10 +39,10 @@
     <section class="hero section" id="top" aria-labelledby="hero-title">
       <div class="hero-grid shell">
         <div class="hero-copy">
-          <p class="eyebrow">Unreal Engine 5 · C++ · Multiplayer · Replication</p>
+          <p class="eyebrow">Unreal Engine 5 · C++ · Gameplay Systems</p>
           <h1 id="hero-title">Tora Sandhi<br><span>Kamulian</span></h1>
           <p class="hero-role">Gameplay Systems Developer</p>
-          <p class="hero-summary">Focused on building gameplay systems in Unreal Engine 5 and C++, with an emphasis on multiplayer, replication, maintainable architecture, and reliable testing.</p>
+          <p class="hero-summary">Focused on building maintainable gameplay systems in Unreal Engine 5 and C++, with reliable architecture, debugging, and testing at the core of my work.</p>
 
           <div class="hero-actions" aria-label="Portfolio links">
             <a class="button button-primary" href="#projects">View Projects <span aria-hidden="true">↓</span></a>
@@ -60,10 +60,10 @@
           </div>
           <pre aria-label="Code-inspired list of programming specialties"><code><span class="code-keyword">namespace</span> Tora {
   <span class="code-type">Focus</span> primary = {
+    <span class="code-string">"Gameplay Systems"</span>,
     <span class="code-string">"Unreal Engine 5"</span>,
     <span class="code-string">"C++"</span>,
-    <span class="code-string">"Multiplayer"</span>,
-    <span class="code-string">"Replication"</span>
+    <span class="code-string">"Testing"</span>
   };
 }</code></pre>
           <div class="status-line"><span aria-hidden="true"></span> Portfolio focus: Unreal gameplay systems</div>
@@ -84,16 +84,15 @@
           <h2 id="about-title">Programming systems that hold up in play.</h2>
         </div>
         <div class="about-copy">
-          <p>I primarily work in Unreal Engine 5 and C++, building gameplay features with a focus on multiplayer replication, maintainable architecture, and reliable testing. I enjoy creating systems that support designers and remain clear as a project grows.</p>
+          <p>I primarily work in Unreal Engine 5 and C++, building gameplay features with maintainable architecture and reliable testing. I also have hands-on experience with multiplayer and replication when a project calls for networked gameplay.</p>
           <ul class="tag-list" aria-label="Areas of specialization">
             <li>Gameplay Programming</li>
-            <li>Multiplayer &amp; Replication</li>
             <li>Gameplay Ability System</li>
             <li>Gameplay Tags</li>
-            <li>Mission &amp; Dialogue Systems</li>
             <li>Functional Testing</li>
             <li>Debugging</li>
             <li>Scalable / Modular System Design</li>
+            <li>Multiplayer &amp; Replication</li>
           </ul>
         </div>
       </div>
@@ -150,96 +149,51 @@
             <p class="section-index">03 / Projects</p>
             <h2 id="projects-title">Selected game projects</h2>
           </div>
-          <p class="section-aside">A technical view of personal and team projects, with my current Unreal Engine systems rebuild featured first.</p>
+          <p class="section-aside">Finished, publicly playable projects—each linked to its itch.io page.</p>
         </div>
 
         <article class="featured-project reveal">
           <div class="featured-topline">
             <span class="project-number">Featured / 01</span>
-            <span class="status-badge"><span aria-hidden="true"></span> In development</span>
+            <span class="status-badge status-badge-published"><span aria-hidden="true"></span> Playable on itch.io</span>
           </div>
 
           <div class="featured-heading">
             <div>
-              <h3>Carnifall</h3>
-              <p class="project-lede">A single-player tower-defense third-person shooter being reworked into a multiplayer co-op Unreal Engine project.</p>
+              <h3>D'Greek Cook</h3>
+              <p class="project-lede">A Greek-mythology cooking game where players fulfill customer orders through a fast arrow-combo interaction mechanic.</p>
             </div>
-            <div class="project-tech" aria-label="Carnifall technologies">
-              <span>Unreal Engine</span>
-              <span>C++</span>
-              <span>Multiplayer</span>
-            </div>
-          </div>
-
-          <div class="project-versions">
-            <section class="version-card" aria-labelledby="original-version-title">
-              <p class="mini-label">Version 01</p>
-              <h4 id="original-version-title">Original GameJam / Unity Version</h4>
-              <p>The original Carnifall is a single-player tower-defense third-person shooter project. Its itch.io page represents this earlier version—not the multiplayer systems in the current rebuild.</p>
-              <a class="text-link" href="https://notclarr.itch.io/carnifall" target="_blank" rel="noopener noreferrer">View original game on itch.io <span aria-hidden="true">↗</span></a>
-            </section>
-
-            <section class="version-card version-card-current" aria-labelledby="current-version-title">
-              <p class="mini-label">Version 02 · Current</p>
-              <h4 id="current-version-title">Current Unreal Engine Multiplayer Rebuild</h4>
-              <p>The current work rebuilds and expands the project for co-op play with a server-authoritative approach and a client-host / listen-server architecture for up to four players.</p>
-              <p class="private-note"><span aria-hidden="true">//</span> Source code is not publicly exposed.</p>
-            </section>
-          </div>
-
-          <div class="system-breakdown">
-            <div>
-              <p class="mini-label">Networking &amp; sessions</p>
-              <ul class="compact-list">
-                <li>Multiplayer replication</li>
-                <li>Server-authoritative gameplay</li>
-                <li>Session creation, discovery, and joining</li>
-                <li>Lobby flow and server travel</li>
-                <li>Steam / Online Subsystem integration</li>
-              </ul>
-            </div>
-            <div>
-              <p class="mini-label">Gameplay systems</p>
-              <ul class="compact-list">
-                <li>Replicated inventory and equipment</li>
-                <li>Weapon systems</li>
-                <li>Gameplay Ability System</li>
-                <li>Gameplay Tags</li>
-                <li>Enhanced Input</li>
-              </ul>
-            </div>
-            <div>
-              <p class="mini-label">Architecture &amp; workflow</p>
-              <ul class="compact-list">
-                <li>Gameplay architecture</li>
-                <li>UI systems</li>
-                <li>Multiplayer debugging</li>
-                <li>Listen-server flow</li>
-                <li>Up to four players</li>
-              </ul>
+            <div class="project-tech" aria-label="D'Greek Cook technologies">
+              <span>Unreal Engine 5</span>
+              <span>Unity</span>
+              <span>Gameplay Systems</span>
             </div>
           </div>
 
-          <div class="screenshot-grid" aria-label="Carnifall screenshot placeholders">
-            <!-- Replace each .media-placeholder block with an img using the file path shown inside it. -->
-            <figure class="media-placeholder">
-              <div class="placeholder-grid" aria-hidden="true"><span>01</span></div>
-              <figcaption><strong>Gameplay screenshot</strong><span>assets/projects/carnifall/multiplayer-01.webp</span></figcaption>
+          <div class="featured-showcase">
+            <figure class="featured-project-image">
+              <img src="assets/projects/previews/dgreek-cook-gameplay.jpg" alt="Top-down gameplay in D'Greek Cook showing the kitchen, orders, timer, and arrow-combo interaction" width="1280" height="720" loading="lazy" decoding="async">
+              <figcaption>Published gameplay capture · D'Greek Cook</figcaption>
             </figure>
-            <figure class="media-placeholder">
-              <div class="placeholder-grid" aria-hidden="true"><span>02</span></div>
-              <figcaption><strong>Lobby / session flow</strong><span>assets/projects/carnifall/multiplayer-02.webp</span></figcaption>
-            </figure>
-            <figure class="media-placeholder">
-              <div class="placeholder-grid" aria-hidden="true"><span>03</span></div>
-              <figcaption><strong>Multiplayer systems</strong><span>assets/projects/carnifall/multiplayer-03.webp</span></figcaption>
-            </figure>
+
+            <div class="featured-project-details">
+              <p class="mini-label">My contribution</p>
+              <h4>Gameplay Programming &amp; System Design</h4>
+              <p>I helped build the game's core interaction and cooking flow, then contributed as the project moved from Unreal Engine 5 to Unity.</p>
+              <ul class="compact-list" aria-label="D'Greek Cook contributions">
+                <li>Gameplay-system implementation</li>
+                <li>Arrow-combo interaction flow</li>
+                <li>Cooking and order-fulfillment logic</li>
+                <li>Cross-engine restructuring</li>
+              </ul>
+              <a class="text-link" href="https://faliharydhka.itch.io/dgreek-cook" target="_blank" rel="noopener noreferrer">View D'Greek Cook on itch.io <span aria-hidden="true">↗</span></a>
+            </div>
           </div>
         </article>
 
         <div class="other-projects-heading">
           <p class="section-index">Other projects</p>
-          <p>Earlier projects and team collaborations</p>
+          <p>Completed builds available on itch.io</p>
         </div>
 
         <div class="project-grid">
@@ -282,19 +236,20 @@
 
           <article class="project-card reveal">
             <div class="project-card-preview" aria-hidden="true">
-              <img src="assets/projects/previews/dgreek-cook.jpg" alt="" width="347" height="195" loading="lazy" decoding="async">
+              <img src="assets/projects/previews/carnifall.jpg" alt="" width="1920" height="1080" loading="lazy" decoding="async">
             </div>
             <div class="project-card-content">
-              <div class="card-topline"><span>04</span><span>Unreal → Unity</span></div>
-              <h3>D'Greek Cook</h3>
-              <p>An Overcooked-inspired cooking game developed with my team, originally in Unreal Engine and later rebuilt / transitioned to Unity.</p>
-              <p class="role-line">Gameplay Programming &amp; System Design</p>
-              <ul class="inline-list" aria-label="D'Greek Cook focus areas">
-                <li>System design</li>
-                <li>Gameplay programming</li>
-                <li>Cross-engine restructuring</li>
+              <div class="card-topline"><span>04</span><span>Unity · GameJam</span></div>
+              <h3>Carnifall</h3>
+              <p>A wave-based tower-defense third-person shooter set in a colorful, corrupted circus.</p>
+              <p class="role-line">Game Programmer · AEGIS Team</p>
+              <ul class="inline-list" aria-label="Carnifall gameplay features">
+                <li>Third-person combat</li>
+                <li>Wave survival</li>
+                <li>Hero abilities</li>
+                <li>Score systems</li>
               </ul>
-              <a class="text-link" href="https://faliharydhka.itch.io/dgreek-cook" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="https://notclarr.itch.io/carnifall" target="_blank" rel="noopener noreferrer">View on itch.io <span aria-hidden="true">↗</span></a>
             </div>
           </article>
 
@@ -362,10 +317,8 @@
             <p class="skill-index">03</p>
             <h3 id="gameplay-skills">Unreal / Gameplay</h3>
             <ul>
-              <li>Multiplayer Replication</li>
               <li>Gameplay Ability System</li>
               <li>Gameplay Tags</li>
-              <li>Online Sessions</li>
               <li>Gameplay Framework</li>
               <li>Enhanced Input</li>
               <li>Functional Testing</li>
